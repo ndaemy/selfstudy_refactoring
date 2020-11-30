@@ -49,4 +49,6 @@ function statement(invoice, plays) {
   return result;
 }
 
-console.log(statement(invoice, plays));
+// console.log(statement(invoice, plays));
+
+exports.statement = statement;
